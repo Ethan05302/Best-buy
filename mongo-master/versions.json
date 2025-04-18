@@ -1,0 +1,207 @@
+{
+  "6.0": {
+    "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%226.0.22%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+    "date": "04/03/2025",
+    "githash": "ee527360b84c6798535ee0895de3c7186b3522f9",
+    "linux": "ubuntu2204",
+    "notes": "https://docs.mongodb.org/master/release-notes/6.0/",
+    "pgp": [
+      {
+        "fingerprints": [
+          "39BD841E4BE5FB195A65400E6A26B1AE64C3C388"
+        ],
+        "url": "https://pgp.mongodb.com/server-6.0.asc"
+      }
+    ],
+    "targets": {
+      "debian10": {
+        "arches": [
+          "amd64"
+        ],
+        "image": "debian:buster-slim",
+        "suite": "buster"
+      },
+      "debian11": {
+        "arches": [
+          "amd64"
+        ],
+        "image": "debian:bullseye-slim",
+        "suite": "bullseye"
+      },
+      "ubuntu2004": {
+        "arches": [
+          "amd64",
+          "arm64v8"
+        ],
+        "image": "ubuntu:focal",
+        "suite": "focal"
+      },
+      "ubuntu2204": {
+        "arches": [
+          "amd64",
+          "arm64v8"
+        ],
+        "image": "ubuntu:jammy",
+        "suite": "jammy"
+      },
+      "windows": {
+        "arches": [
+          "amd64"
+        ],
+        "features": [
+          "MiscellaneousTools",
+          "Router",
+          "ServerNoService"
+        ],
+        "msi": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.22-signed.msi",
+        "sha256": "8d15563eae81fe7ec7530ab84cb04a9f7af16391dffbaa27d02ae9937b7e9c3c",
+        "variants": [
+          "windowsservercore-ltsc2025",
+          "windowsservercore-ltsc2022",
+          "windowsservercore-1809",
+          "nanoserver-ltsc2022",
+          "nanoserver-1809"
+        ]
+      }
+    },
+    "version": "6.0.22"
+  },
+  "6.0-rc": null,
+  "7.0": {
+    "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%227.0.19%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+    "date": "04/03/2025",
+    "githash": "8614d4d8831b08ea0f0156fdb6646a21bed348ec",
+    "linux": "ubuntu2204",
+    "notes": "https://docs.mongodb.org/master/release-notes/7.0/",
+    "pgp": [
+      {
+        "fingerprints": [
+          "E58830201F7DD82CD808AA84160D26BB1785BA38"
+        ],
+        "url": "https://pgp.mongodb.com/server-7.0.asc"
+      }
+    ],
+    "targets": {
+      "debian11": {
+        "arches": [
+          "amd64"
+        ],
+        "image": "debian:bullseye-slim",
+        "suite": "bullseye"
+      },
+      "debian12": {
+        "arches": [
+          "amd64"
+        ],
+        "image": "debian:bookworm-slim",
+        "suite": "bookworm"
+      },
+      "ubuntu2004": {
+        "arches": [
+          "amd64",
+          "arm64v8"
+        ],
+        "image": "ubuntu:focal",
+        "suite": "focal"
+      },
+      "ubuntu2204": {
+        "arches": [
+          "amd64",
+          "arm64v8"
+        ],
+        "image": "ubuntu:jammy",
+        "suite": "jammy"
+      },
+      "windows": {
+        "arches": [
+          "amd64"
+        ],
+        "features": [
+          "MiscellaneousTools",
+          "Router",
+          "ServerNoService"
+        ],
+        "msi": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-7.0.19-signed.msi",
+        "sha256": "815ab9b621acea764f1ecc99c0b686162116ded842a384e4b280713343a3bf9b",
+        "variants": [
+          "windowsservercore-ltsc2025",
+          "windowsservercore-ltsc2022",
+          "windowsservercore-1809",
+          "nanoserver-ltsc2022",
+          "nanoserver-1809"
+        ]
+      }
+    },
+    "version": "7.0.19"
+  },
+  "7.0-rc": null,
+  "8.0": {
+    "changes": "https://jira.mongodb.org/issues/?jql=project%20%3D%20SERVER%20AND%20fixVersion%20%3D%20%228.0.8%22%20ORDER%20BY%20status%20DESC%2C%20priority%20DESC",
+    "date": "04/08/2025",
+    "githash": "7f52660c14217ed2c8d3240f823a2291a4fe6abd",
+    "linux": "ubuntu2404",
+    "notes": "https://docs.mongodb.org/master/release-notes/8.0/",
+    "pgp": [
+      {
+        "fingerprints": [
+          "4B0752C1BCA238C0B4EE14DC41DE058A4E7DCA05"
+        ],
+        "url": "https://pgp.mongodb.com/server-8.0.asc"
+      }
+    ],
+    "targets": {
+      "debian12": {
+        "arches": [
+          "amd64"
+        ],
+        "image": "debian:bookworm-slim",
+        "suite": "bookworm"
+      },
+      "ubuntu2004": {
+        "arches": [
+          "amd64",
+          "arm64v8"
+        ],
+        "image": "ubuntu:focal",
+        "suite": "focal"
+      },
+      "ubuntu2204": {
+        "arches": [
+          "amd64",
+          "arm64v8"
+        ],
+        "image": "ubuntu:jammy",
+        "suite": "jammy"
+      },
+      "ubuntu2404": {
+        "arches": [
+          "amd64",
+          "arm64v8"
+        ],
+        "image": "ubuntu:noble",
+        "suite": "noble"
+      },
+      "windows": {
+        "arches": [
+          "amd64"
+        ],
+        "features": [
+          "MiscellaneousTools",
+          "Router",
+          "ServerNoService"
+        ],
+        "msi": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.8-signed.msi",
+        "sha256": "4bf700912876c337697fa02bf4c38db0baed89604033b138e5e27d4e3eb743ee",
+        "variants": [
+          "windowsservercore-ltsc2025",
+          "windowsservercore-ltsc2022",
+          "windowsservercore-1809",
+          "nanoserver-ltsc2022",
+          "nanoserver-1809"
+        ]
+      }
+    },
+    "version": "8.0.8"
+  },
+  "8.0-rc": null
+}
